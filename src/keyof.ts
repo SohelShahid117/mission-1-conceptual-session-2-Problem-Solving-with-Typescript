@@ -1,4 +1,6 @@
 {
+    //now learning about typeof method
+    
     type Book = {
         name:string;
         author:string;
@@ -15,7 +17,13 @@
         publishedYear:2025
     }
 
-    //10 min done
+    //T for type & K for key
+    function getBookProperty<T,K extends keyof T>(book:T,key:K):T[K]{
+        return book[key];
+    }
+    const authorOfBook= getBookProperty(myBook,"author")
+    console.log(authorOfBook)
+    // console.log(getBookProperty(myBook,"author"))
 
 
 

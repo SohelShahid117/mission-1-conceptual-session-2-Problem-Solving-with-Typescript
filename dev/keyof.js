@@ -5,5 +5,9 @@
         author: "sohel shahid",
         publishedYear: 2025
     };
-    //10 min done
+    //T for type & K for key
+    function getBookProperty(book, key) {
+        return book[key];
+    }
+    console.log(getBookProperty(myBook, "author"));
 }
