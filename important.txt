@@ -1,0 +1,15 @@
+1.akti folder create koro then terminal e : tsc --init likhe enter maro
+2.npm install -g typescript    //globally typescript install koro
+3.npm i ts-node-dev --save-dev
+4.npm i -g ts-node-dev-------->https://www.npmjs.com/package/ts-node-dev
+5.set the root,out directory & target property in tsconfig.json file 
+    a.    "rootDir": "./src",   
+    b.    "outDir": "./dist",  
+    c.    "target": "ES2016", 
+
+6.User@DESKTOP-M1HN5IR MINGW64 /c/Programming Hero-Level2/Mission-1/mission-1-conceptual session-1-Typescript Fundamentals
+$ /terminaler aikhane tsc likhe enter maro/
+
+7.abar run koro using--->ts-node-dev --respawn --transpile-only server.ts  //server.ts akane filelocation soho dite hobe
+
+8.if u set this---> ts-node-dev --respawn --transpile-only server.ts---> in pacakage.json under scripts--->"dev":"ts-node-dev --respawn --transpile-only ./src/operatorAndDestructuring.ts"---->then run file in terminal using--->npm run dev 
