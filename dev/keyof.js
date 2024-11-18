@@ -9,5 +9,7 @@
     function getBookProperty(book, key) {
         return book[key];
     }
-    console.log(getBookProperty(myBook, "author"));
+    const authorOfBook = getBookProperty(myBook, "author");
+    console.log(authorOfBook);
+    // console.log(getBookProperty(myBook,"author"))
 }
