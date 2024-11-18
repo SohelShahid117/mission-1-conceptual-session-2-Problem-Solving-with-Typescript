@@ -20,6 +20,7 @@
     /*
     4.polymorphism:akta jinis bibinno rope j achoron kore takei bole bohoropi || polymorphism.ami kotao student,kotao developer,kotao electrical engr,kotao bsnsman,kotao chele,kotao jamai,sontander kase baba atai holo polymorphism.ami akjon but rop t amar bibinno jaigai bibinno hosse setai holo polymorphism.
     */
+    //inheritance
     class MusicalInstrument {
         constructor(name) {
             this.name = name;
@@ -49,4 +50,7 @@
     const guiterist = new Guiter();
     guiterist.play();
     guiterist.tune();
+    const pianist = new Piano();
+    console.log(pianist.name);
+    pianist.openLid();
 }
