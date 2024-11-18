@@ -3,6 +3,10 @@
 
     class CoffeeMachine{
         private isPowerOn : boolean = false;
+        // private isPowerOn : boolean;
+        // constructor(isPowerOn : boolean){
+        //     this.isPowerOn = true;
+        // }
 
         powerOn(){
             this.isPowerOn=true;
@@ -27,10 +31,6 @@
     myCoffeeMachine.makeCoffee()
     myCoffeeMachine.powerOf()
     myCoffeeMachine.makeCoffee()
-
-
-
-
 
 
 
