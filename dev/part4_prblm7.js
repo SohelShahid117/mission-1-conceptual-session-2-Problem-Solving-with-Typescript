@@ -16,10 +16,16 @@
     Input is not a string.
     */
     // function logString<T>(str:<T>){
-    function logString(str) {
-        if (typeof (str) === "string") {
-            console.log(str);
+    function logString(inpt) {
+        if (typeof (inpt) === "string") {
+            console.log(inpt);
+        }
+        else {
+            // console.log("Input is not a string.")
+            console.error("Input is not a string.");
         }
     }
     logString("hi");
+    logString("Hello, TypeScript!");
+    logString(45);
 }
