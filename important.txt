@@ -10,6 +10,6 @@
 6.User@DESKTOP-M1HN5IR MINGW64 /c/Programming Hero-Level2/Mission-1/mission-1-conceptual session-1-Typescript Fundamentals
 $ /terminaler aikhane tsc likhe enter maro/
 
-7.abar run koro using--->ts-node-dev --respawn --transpile-only server.ts  //server.ts akane filelocation soho dite hobe
+7.abar run koro using--->  //server.ts akane filelocation soho dite hobe
 
 8.if u set this---> ts-node-dev --respawn --transpile-only server.ts---> in pacakage.json under scripts--->"dev":"ts-node-dev --respawn --transpile-only ./src/operatorAndDestructuring.ts"---->then run file in terminal using--->npm run dev 

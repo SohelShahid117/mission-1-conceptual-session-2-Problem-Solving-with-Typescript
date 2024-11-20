@@ -5,6 +5,10 @@
         constructor() {
             this.isPowerOn = false;
         }
+        // private isPowerOn : boolean;
+        // constructor(isPowerOn : boolean){
+        //     this.isPowerOn = true;
+        // }
         powerOn() {
             this.isPowerOn = true;
             console.log("coffee machine is on");
@@ -26,4 +30,5 @@
     myCoffeeMachine.powerOn();
     myCoffeeMachine.makeCoffee();
     myCoffeeMachine.powerOf();
+    myCoffeeMachine.makeCoffee();
 }
